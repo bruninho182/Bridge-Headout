@@ -1,0 +1,19 @@
+.btn-copy-bridge {
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 8px;
+    transition: background 0.3s;
+}
+
+.btn-copy-bridge:hover {
+    background-color: #512da8;
+}
+
+.btn-copy-bridge.success {
+    background-color: #4caf50;
+}

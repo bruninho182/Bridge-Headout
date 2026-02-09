@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { width: 220px; padding: 15px; font-family: Arial, sans-serif; }
+        h3 { color: #673ab7; margin-top: 0; font-size: 16px; }
+        label { font-size: 12px; display: block; margin-bottom: 5px; color: #666; }
+        input { width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; background: #673ab7; color: white; border: none; padding: 10px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        button:hover { background: #512da8; }
+        #status { font-size: 11px; color: green; text-align: center; margin-top: 10px; height: 15px; }
+    </style>
+</head>
+<body>
+    <h3>Configuração</h3>
+    <label>Nome do Operador:</label>
+    <input type="text" id="operadorNome" placeholder="Ex: Bruno Silva">
+    <button id="saveBtn">SALVAR NOME</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
